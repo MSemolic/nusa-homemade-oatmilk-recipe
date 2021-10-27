@@ -1,0 +1,108 @@
+@font-face {
+    font-family: LexendDeca;
+    src: url(./fonts/LexendDeca/LexendDeca-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(./fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+
+html {
+    background-color: #f0ece2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f3f3;
+    width: 55%;
+    padding: 16px;
+    padding-top: 32px;
+    border-radius: 8px;
+    -moz-box-shadow: 0 0 5px rgba(204, 204, 204, 0.753);
+    -webkit-box-shadow: 0 0 5px rgba(204, 204, 204, 0.753);
+    box-shadow: 0 0 5px rgba(204, 204, 204, 0.753); 
+}
+
+.heading {
+    font-family: LexendDeca;
+    font-size: 52px;
+    font-weight: 700;
+    color: #83afa6;
+}
+
+.upper {
+    display: flex;
+    flex-direction: row;
+    column-gap: 32px;
+}
+
+.heading2 {
+    font-family: LexendDeca;
+    font-size: 34px;
+    font-weight: 700;
+    color:#58727f;
+}
+
+.ingridients, .equipment {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    padding-inline: 56px;
+    margin-top: 24px;
+    -moz-box-shadow: 0 0 5px rgba(204, 204, 204, 0.753);
+    -webkit-box-shadow: 0 0 5px rgba(204, 204, 204, 0.753);
+    box-shadow: 0 0 5px rgba(204, 204, 204, 0.753); 
+}
+
+hr {
+    margin-top: 24px;
+    color: #58727f;
+    height: 0.5px;
+    width: 100%;
+}
+
+ul {
+  list-style: circle;
+  line-height: 1.4;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  color: #8c7676;
+  margin-top: 0px;
+  padding-left: 16px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.pic-caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 26px;
+    padding-block: 18px;
+    padding-inline: 18px;
+    -moz-box-shadow: 0 0 5px rgba(204, 204, 204, 0.753);
+    -webkit-box-shadow: 0 0 5px rgba(204, 204, 204, 0.753);
+    box-shadow: 0 0 5px rgba(204, 204, 204, 0.753);
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 20px;
+    width: 85%;
+    color: #785e4d;
+}
+
+img {
+    margin: 15px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color:rgba(122, 66, 1, 0.425);
+    border-width: 2px;
+}
